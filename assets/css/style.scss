@@ -3,7 +3,8 @@
 
 // Headers
 $header-bg-color: #0D47A1 !default;
-$header-bg-color-secondary: #1E88E5 !default;
+$header-bg-color-secondary: #0D47A1 !default;
+//$header-bg-color-secondary: #1E88E5 !default;
 // Text
 $section-headings-color: #0D47A1 !default;
 $body-link-color: #1E88E5 !default;
@@ -18,4 +19,9 @@ $body-link-color: #1E88E5 !default;
     .page-header {
         padding: 1rem 6rem;
     }
+}
+
+h1.project-name {
+
+    font-weight: lighter;
 }
