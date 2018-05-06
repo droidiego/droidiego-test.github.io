@@ -36,9 +36,7 @@ h1.project-name {
 
 .header__nav-item {
 
-    display: inline-block;
     list-style-type: none;
-    margin: 0 23px;
     padding: 0;
     text-transform: uppercase;
 }
@@ -47,11 +45,13 @@ h1.project-name {
 
     .header__nav-item {
 
-        padding: 30px;
+        display: inline-block;
+        margin: 0 23px;
     }
 
     .header__nav-item:first-child {
-        padding-left: 0px;
+        
+        margin-left: 0px;
     }
 }
 
