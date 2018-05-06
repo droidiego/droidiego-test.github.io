@@ -27,11 +27,18 @@ h1.project-name {
 }
 
 /* Header */
-.header__nav {
+.header__nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav-item {
 
     display: inline-block;
     list-style-type: none;
-    /*margin: 0 23px;*/
+    margin: 0 23px;
     padding: 0;
     text-transform: uppercase;
 }
@@ -40,10 +47,9 @@ h1.project-name {
 
     .header__nav-item {
 
-        display: inline;
         padding: 30px;
     }
-    
+
     .header__nav-item:first-child {
         padding-left: 0px;
     }
