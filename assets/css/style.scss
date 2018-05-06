@@ -25,3 +25,34 @@ h1.project-name {
 
     font-weight: lighter;
 }
+
+/* Header */
+.header__nav {
+
+    display: inline-block;
+    list-style-type: none;
+    /*margin: 0 23px;*/
+    padding: 0;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .header__nav-item {
+
+        display: inline;
+        padding: 30px;
+    }
+    
+    .header__nav-item:first-child {
+        padding-left: 0px;
+    }
+}
+
+
+.header__nav-item.active .header__nav-item-link {
+
+    border-bottom: 5px solid #4a4a4a;
+}
+
+/* << Header */
