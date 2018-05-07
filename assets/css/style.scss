@@ -26,7 +26,7 @@ h1.project-name {
     font-weight: lighter;
 }
 
-/* Header */
+/* Nav menu */
 .header__nav ul {
 
     list-style-type: none;
@@ -55,10 +55,15 @@ h1.project-name {
     }
 }
 
-
 .header__nav-item.active .header__nav-item-link {
 
-    border-bottom: 5px solid #4a4a4a;
+    color: #606c71;
+    text-decoration: none;
 }
 
-/* << Header */
+.header__nav-item.active .header__nav-item-text {
+
+    border-bottom: 2px solid #606c71;
+}
+
+/* / Nav menu */
