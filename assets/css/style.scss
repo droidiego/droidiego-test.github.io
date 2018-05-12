@@ -26,6 +26,31 @@ h1.project-name {
     font-weight: lighter;
 }
 
+@media screen and (min-width: 64em) {
+    
+    .project-name {
+        font-size: 2.25rem;
+    }
+}
+
+.header__avatar {
+
+    float:  right;
+    background-color: #fff;
+    border: 2px solid #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 70px;
+    margin-top: -30px;
+    position: relative;
+    width: 70px;
+    -webkit-box-flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
 /* Nav menu */
 .header__nav ul {
 
