@@ -1,37 +1,39 @@
-## Easy Contacts Delete
+# Easy Contacts Delete
 
-You can use the [editor on GitHub](https://github.com/droidiego/droidiego.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<img src="./assets/img/ecd_logo.png" alt="ECD Logo" style="width: 200px;"/>
+<!--![alt text](/assets/img/ecd_logo.png "ECD Logo")-->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Easy way to Delete Contacts!
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Quick and simple! This Android application allow you to remove quickly one or more contacts.**
 
-```markdown
-Syntax highlighted code block
+Press menu for select all option.
 
-# Header 1
-## Header 2
-### Header 3
+<a href='https://play.google.com/store/apps/details?id=com.previtali.ecd&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' style="width: 200px;"/></a>
 
-- Bulleted
-- List
+### License
 
-1. Numbered
-2. List
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.
+Backup your contacts before use, so you can get it back if necessary.
 
-**Bold** and _Italic_ and `Code` text
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[Link](url) and ![Image](src)
-```
+### Privacy Policy
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+"Easy Contacts Delete" app don't store or transmit your contact information beyond your phone.
 
-### Jekyll Themes
+This app don’t collect "personally identifiable information"(PII), but collect non-personally identifiable information using third party services. This is the list of third party services used in the app:
+- Google Play app statistics: Google collect app usage statistics, and we used it improve our apps
+- Google AdMob: Google's advertising requirements can be summed up by Google's Advertising Principles. They are put in place to provide a positive experience for users. [AdMob & AdSense policies](https://support.google.com/admob/answer/6128543?hl=en)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/droidiego/droidiego.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+In general, this is what the Google Privacy Policy page says about opt-out: “View and edit your preferences about the Google ads shown to you on Google and across the web, such as which categories might interest you, using Ads Settings. 
+You can also visit that page to opt out of certain Google advertising services.” (Google Privacy Policy) “Review and control certain types of information tied to your Google Account by using Google Dashboard.” ([Google Privacy Policy](https://policies.google.com/privacy?hl=en))
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Last Edited on 2018-05-12
