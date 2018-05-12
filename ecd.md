@@ -1,6 +1,6 @@
 # Easy Contacts Delete
 
-<img src="./assets/img/ecd_logo.png" alt="ECD Logo" style="width: 200px;"/>
+<img src="./assets/img/android_ecd_logo.png" alt="ECD Logo" style="width: 200px;"/>
 <!--![alt text](/assets/img/ecd_logo.png "ECD Logo")-->
 
 ## Easy way to Delete Contacts!
@@ -8,7 +8,7 @@
 
 **Quick and simple! This Android application allow you to remove quickly one or more contacts.**
 
-Press menu for select all option.
+<!-- Press menu for select all option. -->
 
 <a href='https://play.google.com/store/apps/details?id=com.previtali.ecd&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' style="width: 200px;"/></a>
 
