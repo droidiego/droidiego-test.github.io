@@ -1,6 +1,6 @@
 # Connection On/Off widget
 
-<img src="./assets/img/android_coow_logo.png" alt="COOW Logo" style="width: 200px;"/>
+<img src="./assets/img/android_coow_logo.png" alt="COOW Logo" style="width: 200px; background: #EEE; -webkit-border-radius: 50%; border-radius: 50%;"/>
 <!--![alt text](/assets/img/android_coow_logo.png "COOW Logo")-->
 
 ## Turn ON/OFF your data connection in 1 click!
