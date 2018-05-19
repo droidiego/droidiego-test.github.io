@@ -15,21 +15,21 @@
 
         var locationPathname = location.pathname;
 
-        if (locationPathname == "/" || locationPathname == "/Home") {
+        if (locationPathname == "/" || locationPathname == "/index" || locationPathname == "/test/" || locationPathname == "/test/index") {
 
           $(".header__nav ul > li.header__nav-item:nth-child(1)").addClass("active");
 
-        } else if (locationPathname == "/news") {
+        } else if (locationPathname == "/news" || locationPathname == "/test/news") {
 
           $(".header__nav ul > li.header__nav-item:nth-child(2)").addClass("active");
 
-        } else if (locationPathname == "/ecd") {
+        } else if (locationPathname == "/ecd" || locationPathname == "/test/ecd") {
 
           $(".header__nav ul > li.header__nav-item:nth-child(3)").addClass("active");
 
-        } else if (locationPathname == "/ac") {
+        } else if (locationPathname == "/ac" || locationPathname == "/test/ac") {
 
-          $(".header__nav ul > li.header__nav-item:nth-child(4)").addClass("active");
+          $(".header__nav ul > li.header__nav-item:nth-child(3)").addClass("active");
         }
       });
     </script>
