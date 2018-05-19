@@ -36,4 +36,4 @@ In general, this is what the Google Privacy Policy page says about opt-out: “V
 You can also visit that page to opt out of certain Google advertising services.” (Google Privacy Policy) “Review and control certain types of information tied to your Google Account by using Google Dashboard.” ([Google Privacy Policy](https://policies.google.com/privacy?hl=en))
 
 
-Last Edited on 2018-05-12
+*Last Edited on 2018-05-12*

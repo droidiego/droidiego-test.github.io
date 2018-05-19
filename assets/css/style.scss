@@ -27,7 +27,7 @@ h1.project-name {
 }
 
 @media screen and (min-width: 64em) {
-    
+
     .project-name {
         font-size: 2.25rem;
     }
@@ -51,8 +51,75 @@ h1.project-name {
     flex: 0 0 auto;
 }
 
+
 /* Nav menu */
+/*.header__nav {
+	margin-top: 15px
+}*/
+
 .header__nav ul {
+	list-style: none;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0
+}
+
+.header__nav ul a {
+	display: block;
+    color: #1E88E5;
+	text-decoration: none;
+	padding: 0 15px;
+}
+
+.header__nav ul li.header__nav-item {
+	position: relative;
+	float: left;
+	margin: 0;
+    padding: 0
+    text-transform: uppercase;
+}
+
+.header__nav ul li.header__nav-item.active {
+	border-bottom: 2px solid #606c71;
+}
+
+.header__nav ul li.header__nav-item:hover {
+	border-bottom: 2px solid #0D47A1;
+}
+
+.header__nav ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	padding: 0
+}
+
+.header__nav ul ul li {
+	float: none;
+	width: 200px
+}
+
+.header__nav ul ul a {
+	line-height: 120%;
+	padding: 10px 15px
+}
+
+.header__nav ul ul ul {
+	top: 0;
+	left: 100%
+}
+
+.header__nav ul li:hover > ul {
+	display: block
+}
+/* / Nav menu */
+
+
+/* OLD Nav menu */
+/*.header__nav ul {
 
     list-style-type: none;
     margin: 0;
@@ -89,6 +156,6 @@ h1.project-name {
 .header__nav-item.active .header__nav-item-text {
 
     border-bottom: 2px solid #606c71;
-}
+}*/
 
-/* / Nav menu */
+/* / OLD Nav menu */
