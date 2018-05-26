@@ -70,11 +70,14 @@ h1.project-name {
 	padding: 0 15px;
 }
 
-.header__nav ul li.header__nav-item {
+.header__nav > ul > li.header__nav-item {
     position: relative;
 	float: left;
 	margin: 0;
-    padding: 0;
+    /* padding: 0; */
+    padding: 1.2rem 0.5rem 1rem;
+    border-radius: 1rem 1rem 0 0rem;
+    line-height: 1rem;
     text-transform: uppercase;
 }
 
@@ -87,22 +90,6 @@ h1.project-name {
     color: #606c71;
 }
 
-.header__nav ul li {
-    padding: 1.2rem 0.5rem 1rem;
-    border-radius: 1rem 1rem 0 0rem;
-    line-height: 1rem;
-}
-
-/* .header__nav ul li.has-drop-down {
-    position: relative;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    -webkit-transition: box-shadow 0.3s;
-    transition: box-shadow 0.3s;
-    -webkit-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
-    padding-right: 1.5rem;
-} */
-
 .header__nav ul li .fa-chevron-down {
     /* display: block;
     position: absolute; */
@@ -111,20 +98,26 @@ h1.project-name {
     right: 0.25rem;
 }
 
-.header__nav ul ul {
+.header__nav ul li.has-drop-down ul {
 	display: none;
 	position: absolute;
 	top: 100%;
 	left: 0;
 	background: #fff;
-    /* padding: 0;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    /* padding: 0;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     -webkit-transition: box-shadow 0.3s;
     transition: box-shadow 0.3s;
     -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
-    padding-right: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+@media screen and (min-width: 1074px) {
+    
+    .header__nav ul li.has-drop-down:hover {
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    }
 }
 
 .header__nav ul ul li {
