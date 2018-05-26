@@ -6,7 +6,10 @@
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
+    <!-- css import -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- / css import -->
     <!-- import jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
@@ -65,8 +68,9 @@
               <span class="header__nav-item-text">SalesForce</span>
             </a>
           </li> -->
-          <li class="header__nav-item">
+          <li class="header__nav-item has-drop-down">
             <a class="header__nav-item-link" href="#">Android</a>
+            <i aria-hidden="true" class="fa fa-chevron-down"></i>
             <ul>
               <li class="header__nav-item">
                 <a class="header__nav-item-link" href="./ecd">Easy Contact Delete</a>

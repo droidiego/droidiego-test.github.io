@@ -71,7 +71,7 @@ h1.project-name {
 }
 
 .header__nav ul li.header__nav-item {
-	position: relative;
+    position: relative;
 	float: left;
 	margin: 0;
     padding: 0;
@@ -79,7 +79,7 @@ h1.project-name {
 }
 
 .header__nav ul li.header__nav-item.active {
-	border-bottom: 2px solid #606c71;
+    border-bottom: 2px solid #606c71;
 }
 
 .header__nav ul li.header__nav-item:hover {
@@ -87,7 +87,23 @@ h1.project-name {
     color: #606c71;
 }
 
-.header__nav ul ul {
+.header__nav ul li {
+    padding: 1.2rem 0.5rem 1rem;
+    border-radius: 1rem 1rem 0 0rem;
+    line-height: 1rem;
+}
+
+.header__nav ul li.has-drop-down {
+    position: relative;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    padding-right: 1.5rem;
+}
+
+/*.header__nav ul ul {
 	display: none;
 	position: absolute;
 	top: 100%;
@@ -95,7 +111,7 @@ h1.project-name {
 	background: #fff;
     padding: 0;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
+}*/
 
 .header__nav ul ul li {
 	float: none;
