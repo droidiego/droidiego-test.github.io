@@ -32,8 +32,7 @@ This app don’t collect "personally identifiable information"(PII), but collect
 - Google Play app statistics: Google collect app usage statistics, and we used it improve our apps
 - Google AdMob: Google's advertising requirements can be summed up by Google's Advertising Principles. They are put in place to provide a positive experience for users. [AdMob & AdSense policies](https://support.google.com/admob/answer/6128543?hl=en)
 
-In general, this is what the Google Privacy Policy page says about opt-out: “View and edit your preferences about the Google ads shown to you on Google and across the web, such as which categories might interest you, using Ads Settings. 
-You can also visit that page to opt out of certain Google advertising services.” (Google Privacy Policy) “Review and control certain types of information tied to your Google Account by using Google Dashboard.” ([Google Privacy Policy](https://policies.google.com/privacy?hl=en))
+You can also visit the [Google Privacy Policy](https://policies.google.com/privacy?hl=en) to opt out of certain Google advertising services and review certain types of information tied to your Google Account by using Google Dashboard.
 
 
 *Last Edited on 2018-05-12*
