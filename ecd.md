@@ -30,7 +30,7 @@ Backup your contacts before use, so you can get it back if necessary.
 
 This app don’t collect "personally identifiable information"(PII), but collect non-personally identifiable information using third party services. This is the list of third party services used in the app:
 - Google Play app statistics: Google collect app usage statistics, and we used it improve our apps
-- Google AdMob: Google's Advertising informations put in place to provide a ads positive experience for users. [AdMob & AdSense policies](https://support.google.com/admob/answer/6128543?hl=en)
+- Google AdMob: Google's Advertising informations put in place to provide a ads positive experience for users ([AdMob & AdSense policies](https://support.google.com/admob/answer/6128543?hl=en))
 
 You can also visit the [Google Privacy Policy](https://policies.google.com/privacy?hl=en) to opt out of certain Google advertising services and review certain types of information tied to your Google Account by using Google Dashboard.
 
